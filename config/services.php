@@ -34,7 +34,7 @@ return [
     'steam' => [
         'client_id' => null,
         'client_secret' => env('STEAM_CLIENT_SECRET'),
-        'redirect' => env('STEAM_REDIRECT_URI') . '/login/steam/callback',
+        'redirect' => env('STEAM_REDIRECT_URI'),
         'allowed_hosts' => [
             'burak.fun',
         ]
