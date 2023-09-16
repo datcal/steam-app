@@ -8,7 +8,9 @@ set('repository','git@github.com:datcal/steam-app.git');
 // env file
 
 
-set('shared_files', ['.env']);
+set('shared_files', [
+    '.env'
+]);
 
 
 
