@@ -5,7 +5,7 @@ require 'recipe/laravel.php';
 
 set('repository','git@github.com:datcal/steam-app.git');
 
-// env file
+// env file hasan
 
 
 set('shared_files', [
