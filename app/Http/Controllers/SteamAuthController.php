@@ -22,6 +22,7 @@ class SteamAuthController extends Controller
     {
         $user = Socialite::driver('steam')->user();
         dd($user);
+
         // Here, you can store or retrieve the user in your database and log them in.
     }
 }
