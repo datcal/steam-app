@@ -9,9 +9,12 @@ use \Symfony\Component\HttpFoundation\RedirectResponse;
 
 class SteamAuthController extends Controller
 {
-    public function redirectToSteam(): RedirectResponse
+    public function redirectToSteam(): void
     {
-        return Socialite::driver('steam')->redirect();
+        $data =  Socialite::driver('steam')->redirect();
+        echo '<pre>';
+        print_r($data);
+        echo '</pre>';
     }
 
     #[NoReturn]
