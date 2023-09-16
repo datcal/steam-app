@@ -1,5 +1,3 @@
-// steam login button
-
 <style>
     .steambutton {
         display: block;
